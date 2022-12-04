@@ -7,7 +7,7 @@ body{
 h1{
     font-family:cursive;
     font-size:5rem ;
-    color: aliceblue;
+    /* color: aliceblue; */
     text-shadow:5px 0 olive ;
     color:darkgreen;
       
@@ -15,8 +15,7 @@ h1{
 
 footer{
     color: darkslategray;
-    font-family: cursive;
-    
+    font-family: cursive;   
 }
 
 .w{

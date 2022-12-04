@@ -1,10 +1,10 @@
-//when each(find length) of the drum buttons(with inner html) is clicked(add click eventlistener)it should give a corresponding sound.(add a sound function) // 
+//when each(go through each) of the drum buttons(with inner html) is clicked(add click eventlistener)it should give a corresponding sound.(add a sound function) // 
 
 //(b)also when a keyboard button is clicked they should give a corresponding sound.(add a keyboard buttonAnimation sound)//
 
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
- for (var i = 0; i < numberOfDrumButtons;i++) {
+ for (var i = 0; i < numberOfDrumButtons; i++) {
      
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
       //when the innerHtml/alphabet inside the button is clicked we want it to make a sound.
@@ -23,7 +23,9 @@ makeSound(event.key);
     buttonAnimation(event.key);
                           });
 
-function makeSound(key) {
+
+
+    function makeSound(key) {
     
     switch (key) {
         case "w":
